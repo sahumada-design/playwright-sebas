@@ -14,7 +14,7 @@ import { test, expect } from '@playwright/test';
 test('mi test', async ({ page }) => {
   console.log('Arrancó el test');
 
-  await page.goto('https://google.c3om');
+  await page.goto('https://google.com');
 
-  console.log('Entré a Google');
+  console.log('Entré a Google sebas');
 });

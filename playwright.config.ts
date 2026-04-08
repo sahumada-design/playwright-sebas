@@ -31,7 +31,7 @@ export default defineConfig({
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    headless:false,
+    //headless:false,
     screenshot:'on',
     //video:'retain-on-failure',
     video:'on',

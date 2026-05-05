@@ -5,6 +5,6 @@ test('sebastest', async ({ page }) => {
   await page.waitForTimeout(3000)
   await page.locator('//*[@id="APjFqb"]').fill('diario el sol')
   await page.keyboard.press('Enter')
-  await page.waitForTimeout(9000)
+  
   
 });
